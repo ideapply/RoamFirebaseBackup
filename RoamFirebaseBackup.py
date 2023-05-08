@@ -3,6 +3,7 @@
 # 2023-05-06：增加了文件夹筛选下载，去除了所有路径文件夹，已实现功能
 # 2023-05-08：优化日志log，消除重复下载的现象，自动补全日志log和下载文件的缺省
 # InsightSphere公共知识库中使用，作者：ideapply
+# 参考：https://github.com/wshuyi/demo-roam-image-bak
 
 import os
 import sys
