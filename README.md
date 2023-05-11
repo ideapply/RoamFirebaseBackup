@@ -9,9 +9,11 @@ RoamFirebaseBackup 是一个用于备份 Roam Research 中 Firebase 存储的远
 
 ## 待实现功能
 - [ ] 利用Hex校对文件的完整性
+  - Firebase存储不提供Hex校验，所以目前此功能从原理上无法实现
 - [ ] 实现本地edn文件转md文件
 - [ ] 实现md文件中的远程链接转本地链接
-- [ ] 实现已下载文件随edn文件删除而删除
+- [x] 实现已下载文件随edn文件删除而删除
+  - 在RoamFirebaseBackup_with_autocleaner.py中实现，清理的历史文件放入一个新建`Trash`文件夹中，并用log文件记录转移日志。
 
 ## 用法
 - 安装调用的python库文件
