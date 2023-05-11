@@ -8,7 +8,7 @@ RoamFirebaseBackup 是一个用于备份 Roam Research 中 Firebase 存储的远
 - 自动补全日志内容缺失项和已下载文件缺失项
 
 ## 待实现功能
-- [ ] 利用Hex校对文件的完整性
+- [ ] ~~利用Hex校对文件的完整性~~
   - Firebase存储不提供Hex校验，所以目前此功能从原理上无法实现
 - [ ] 实现本地edn文件转md文件
 - [ ] 实现md文件中的远程链接转本地链接
@@ -18,6 +18,9 @@ RoamFirebaseBackup 是一个用于备份 Roam Research 中 Firebase 存储的远
 ## 用法
 - 安装调用的python库文件
 - 运行命令： `python roam_image_backup.py [your-roam-json-file] [image-storage-dir]`
+
+## 后记
+目前Roam Research附件备份的所有可以实现的基本功能已全部完成，剩下的两个属于格式转换；这两天简单测试了下效果一般且繁琐，个人能力有限，故目前暂时无限期搁置。
 
 ## 参考
 王树义wshuyi：https://github.com/wshuyi/demo-roam-image-bak
