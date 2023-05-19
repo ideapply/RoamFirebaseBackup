@@ -20,7 +20,7 @@ RoamFirebaseBackup 是一个用于备份 Roam Research 中 Firebase 存储的远
 - 运行命令： `python roam_image_backup.py [your-roam-json-file] [image-storage-dir]`
 
 ## 后记
-目前Roam Research附件备份的所有可以实现的基本功能已全部完成，剩下的两个属于格式转换；这两天简单测试了下效果一般且繁琐，个人能力有限，故目前暂时无限期搁置。
+目前Roam Research附件备份的所有可以实现的基本功能已全部完成，剩下的两个属于格式转换；这两天简单测试了下，格式转换效果一般且繁琐，个人能力有限，故目前暂时无限期搁置。
 
 ## 参考
 王树义wshuyi：https://github.com/wshuyi/demo-roam-image-bak
