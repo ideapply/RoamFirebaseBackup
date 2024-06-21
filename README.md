@@ -22,5 +22,7 @@ RoamFirebaseBackup is a Python script for backing up remote files stored in Fire
 ## Postscript
 All the basic functionalities that can be implemented for Roam Research attachment backup are now complete. The remaining two are related to format conversion; after some simple tests in the past few days, the conversion effect was mediocre and cumbersome, and due to limited personal capabilities, these are indefinitely shelved for now.
 
+Update: EDN file processing part has been isolated as a new repository due to its complexity. -> [edn-file-processor](https://github.com/ideapply/edn-file-processor)
+
 ## Reference
 Wang Shuyi (wshuyi): https://github.com/wshuyi/demo-roam-image-bak
